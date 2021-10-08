@@ -1,0 +1,15 @@
+# PARTIAL ACCURACY
+
+
+
+for emo_indx in range(0, n_classes):
+    data_for_class = testingset[testingset[:, 2304 + emo_indx] == 1]
+    x_data = data_for_class[:, 0:2304]
+    x_data = x_data.reshape(x_data.shape[0], 48, 48)
+    x_data = np.expand_dims(x_data, axis=4)
+
+    y_data = data_for_class[:, 2304:2304 + n_classes]
+
+    scores = model.evaluate(x_data, y_data, batch_size=32, verbose=0)
+    print('> Accuracy %.2f%% for <%s>'% (scores[1]*100, get_emotion(np.array([emo_indx]))))
+
