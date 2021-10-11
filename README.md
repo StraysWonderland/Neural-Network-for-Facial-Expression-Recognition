@@ -3,6 +3,12 @@
 This repository is a simple jupyter notebook that is trained on the Facial Expressions Recognition (FER2016) Dataset
 Currently it does not include any additional data manipluation to avoid overfitting, but this might be added in the future
 
+## Contributing to Hacktoberfest
+If you want to start a pull request to contribute to hacktoberfest, either:
+- take a look at the issues which will include some simple tasks to implement
+- add a codeblock with a different model layout
+- add codeblocks to plot additional metrics
+- 
 ## Dataset
 Simply load the FER2016 dataset from kaggle and place the csv in the ```data``` folder
 
