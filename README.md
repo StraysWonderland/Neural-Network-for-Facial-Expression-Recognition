@@ -28,5 +28,12 @@ to do so ; only run the blocks below the ```loading the model``` codeblock
 ## Accuracy
 
 Our network achieves around 65% test accuracy
+![accuracy](images/accuracy.png)
+
+### loss
+
+Here is the plot for the loss function
+![loss function](images/loss.png)
+
 it suffers from overfitting a lot so in future i might add data manipulation or experiment with the network layout
 Feel free to contribute to the network layout for better accuracy.
