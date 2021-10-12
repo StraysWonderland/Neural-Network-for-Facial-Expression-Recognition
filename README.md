@@ -6,9 +6,8 @@ Currently it does not include any additional data manipluation to avoid overfitt
 ## Contributing to Hacktoberfest
 If you want to start a pull request to contribute to hacktoberfest, either:
 - take a look at the issues which will include some simple tasks to implement
-- add a codeblock with a different model layout
+- add  different model layout as new codeblock in the main file or in the TestNetworks/ subfolder.
 - add codeblocks to plot additional metrics
-- 
 ## Dataset
 Simply load the FER2016 dataset from kaggle and place the csv in the ```data``` folder
 
