@@ -1,6 +1,6 @@
 # Network For Emotion Recogntion from Facial Expressions using the FER dataset
 
-This repository is a simple jupyter notebook that is trained on the Facial Expressions Recognition (FER2016) Dataset
+This repository is a simple jupyter notebook that is trained on the Facial Expressions Recognition (FER2013) Dataset
 Currently it does not include any additional data manipluation to avoid overfitting, but this might be added in the future
 
 ## Contributing to Hacktoberfest
@@ -9,13 +9,16 @@ If you want to start a pull request to contribute to hacktoberfest, either:
 - add  different model layout as new codeblock in the main file or in the TestNetworks/ subfolder.
 - add codeblocks to plot additional metrics
 ## Dataset
-Simply load the FER2016 dataset from kaggle and place the csv in the ```data``` folder
+Simply load the FER2013 dataset from kaggle and place the csv in the ```data``` folder <br/>
+Dataset can be downloaded from this [link](https://www.kaggle.com/deadskull7/fer2013)
 
 ## Requirements
 - tensorflow >= 2.2
 - jupyter notebook
 - python >= 3.8
 - numpy
+- Pandas
+- sklearn
 
 the required virtual environment can be created from either the ```requirements.txt``` or the ```environment.yaml``` in the requirements folder
 
@@ -30,15 +33,19 @@ and go through all the codeblocks if you want to train the network from scratch.
 the model also saves its architecture and weights to json and hdf file so they can be later on loaded for testing without re-training
 to do so ; only run the blocks below the ```loading the model``` codeblock
 
+
 ## Accuracy
 
 Our network achieves around 65% test accuracy
-![accuracy](images/accuracy.png)
+<p align="center">
+<img align="center" src ="images/accuracy.png">
+</p>
 
 ### loss
 
-Here is the plot for the loss function
-![loss function](images/loss.png)
-
+Here is the plot for the loss function:
+<p align="center">
+<img src ="images/loss.png">
+</p>
 it suffers from overfitting a lot so in future i might add data manipulation or experiment with the network layout
 Feel free to contribute to the network layout for better accuracy.
