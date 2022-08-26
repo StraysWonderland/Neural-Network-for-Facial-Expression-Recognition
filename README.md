@@ -1,5 +1,7 @@
 # Network For Emotion Recogntion from Facial Expressions using the FER dataset
 
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/e21e6c47f4c441d5bcab4ae4d17df23c)](https://www.codacy.com/gh/StraysWonderland/Neural-Network-for-Facial-Expression-Recognition/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=StraysWonderland/Neural-Network-for-Facial-Expression-Recognition&amp;utm_campaign=Badge_Grade)
+
 This repository is a simple jupyter notebook that is trained on the Facial Expressions Recognition (FER2013) Dataset
 Currently it does not include any additional data manipluation to avoid overfitting, but this might be added in the future
 
