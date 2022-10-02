@@ -7,20 +7,21 @@ Currently it does not include any additional data manipluation to avoid overfitt
 
 ## Contributing to Hacktoberfest
 If you want to start a pull request to contribute to hacktoberfest, either:
-  - take a look at the issues which will include some simple tasks to implement
-  - add  different model layout as new codeblock in the main file or in the TestNetworks/ subfolder.
-  - add codeblocks to plot additional metrics
+-  take a look at the issues which will include some simple tasks to implement
+-  add  different model layout as new codeblock in the main file or in the TestNetworks/ subfolder.
+-  add codeblocks to plot additional metrics
+
 ## Dataset
 Simply load the FER2013 dataset from kaggle and place the csv in the ```data``` folder <br/>
 Dataset can be downloaded from this [link](https://www.kaggle.com/deadskull7/fer2013)
 
 ## Requirements
-  - tensorflow >= 2.2
-  - jupyter notebook
-  - python >= 3.8
-  - numpy
-  - Pandas
-  - sklearn
+-  tensorflow >= 2.2
+-  jupyter notebook
+-  python >= 3.8
+-  numpy
+-  Pandas
+-  sklearn
 
 the required virtual environment can be created from either the ```requirements.txt``` or the ```environment.yaml``` in the requirements folder
 
